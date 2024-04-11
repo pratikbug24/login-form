@@ -104,7 +104,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <h2>Register</h2>
     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
         <div>
-            <label>Username</label>
+            <label>E-mail Id</label>
             <input type="text" name="user_name" value="<?php echo $user_name; ?>">
             <span><?php echo $user_name_err; ?></span>
         </div>    
